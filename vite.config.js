@@ -7,7 +7,7 @@ import styleImport, { VantResolve } from 'vite-plugin-style-import';
 // https://vitejs.dev/config/
 export default defineConfig(({mode}) => {
   return {
-    base: mode === 'development' ? '/vue3-template-h5/' : '/',
+    base: mode === 'production' ? '/vue3-template-h5/' : '/',
     plugins: [
       vue(),
       styleImport({
