@@ -8,6 +8,9 @@ import styleImport, { VantResolve } from 'vite-plugin-style-import';
 export default defineConfig(({mode}) => {
   return {
     base: mode === 'production' ? '/vue3-template-h5/' : '/',
+    server: {
+      port: 5000
+    },
     plugins: [
       vue(),
       styleImport({
