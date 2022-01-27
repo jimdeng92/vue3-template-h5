@@ -14,6 +14,6 @@ npm run dev
 
 ## TODO
 
-[ ] jsx
-[ ] rem
-[ ] eslint
+- [ ] jsx
+- [ ] rem
+- [ ] eslint
